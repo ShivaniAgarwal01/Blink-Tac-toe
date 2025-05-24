@@ -37,10 +37,9 @@ A creative twist on Tic Tac Toe with emojis and a vanishing rule!
    cd Emoji-Tic-Tac-toe
 ```
 2. **Install dependencies**
-  ```bash
+```bash
   npm install
 ```
-
 3. **Start the development server**
   ```bash
   npm run dev
