@@ -36,13 +36,14 @@ A creative twist on Tic Tac Toe with emojis and a vanishing rule!
    git clone https://github.com/your-username/Emoji-Tic-Tac-toe.git
    cd Emoji-Tic-Tac-toe
 ```
-2. **Install dependencies**
-```bash
+```
+2 **Install dependencies**
+  ```bash
   npm install
 ```
+
 3. **Start the development server**
   ```bash
   npm run dev
-```
-
-Deploy url : 
+  ```
+Deploy url : [blinktactoegame.netlify.apphttps://blinktactoegame.netlify.app/](https://blinktactoegame.netlify.app/)
