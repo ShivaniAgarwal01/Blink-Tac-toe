@@ -46,4 +46,4 @@ A creative twist on Tic Tac Toe with emojis and a vanishing rule!
   ```bash
   npm run dev
   ```
-Deploy url : [blinktactoegame.netlify.apphttps://blinktactoegame.netlify.app/](https://blinktactoegame.netlify.app/)
+Deploy url :https://blinktactoegame.netlify.app/
