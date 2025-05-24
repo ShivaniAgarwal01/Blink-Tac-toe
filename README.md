@@ -1,12 +1,49 @@
-# React + Vite
+# Blink Tac Toe 🎮
+A creative twist on Tic Tac Toe with emojis and a vanishing rule!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🔧 Tech Stack
+- React.js
+- CSS / Tailwind CSS
 
-Currently, two official plugins are available:
+## 😎 Emoji Categories
+- Animals — 🐶 🐱 🐰 🐵
+- Food — 🍕 🍟 🍩 🍔
+- Travel - 🚗 ✈️ 🚲 🚀
+- Sports - ⚽ 🏀 🏈 🎾
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Key Features
+- 3x3 grid with emoji-based gameplay
+- Vanishing emoji logic (FIFO rule)
+- Win detection with highlighted combination
+- Play Again button
+- Responsive UI and turn indicators
+- Supports dynamic emoji selection per move
 
-## Expanding the ESLint configuration
+## 🧠 Vanishing Feature Logic
+- Each player has a max of 3 emojis on board.
+- On 4th move, the oldest emoji vanishes.
+- The new emoji **cannot** go on the vanished emoji’s previous position.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Future Improvements
+- Sound effects and animations
+- Scoreboard for multiple rounds
+- Custom emoji category selection
+
+  ## 📦 Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/Emoji-Tic-Tac-toe.git
+   cd Emoji-Tic-Tac-toe
+```
+2. **Install dependencies**
+  ```bash
+  npm install
+```
+
+3. **Start the development server**
+  ```bash
+  npm run dev
+```
+
+Deploy url : 
