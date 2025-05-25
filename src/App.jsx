@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className='flex flex-col items-center h-screen space-y-3 p-5'>
-      <h1 className='text-[45px] font-[monospace] font-semibold text-[#d8d8d8]'>TIC TAC TOE</h1>  
+      <h1 className='text-[45px] font-[monospace] font-semibold text-[#d8d8d8]'>BLINK TAC TOE</h1>  
       
       <p className="text-lg text-[#d8d8d8] font-[monospace] mt-2 flex flex-col items-center mb-7">
         Not your usual Tic Tac Toe — emojis vanish, strategies evolve.
